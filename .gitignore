@@ -1,0 +1,9 @@
+# PyCharm
+.idea
+
+# Project
+venv
+.env
+
+# MacOS
+.DS_Store
