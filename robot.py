@@ -51,10 +51,5 @@ class MrRobot(discord.Client):
                 print(f'Failed due to error={e}')
 
 
-def main():
-    client = MrRobot()
-    client.run(TOKEN)
-
-
-if __name__ == '__main__':
-    main()
+client = MrRobot()
+client.run(TOKEN)
